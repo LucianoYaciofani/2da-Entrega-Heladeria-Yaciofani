@@ -31,6 +31,8 @@
     align-content: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    background: rgb(240, 193, 123);
+    background: radial-gradient(circle, rgba(240, 193, 123, 1) 0%, rgba(249, 248, 243, 1) 100%);
 }
 
 /* SECCIONES */
@@ -95,7 +97,14 @@
     align-content: center;
     color: #8c9eff;
     border-top: double;
-    background-color: burlywood;
+    background: rgb(249, 248, 243);
+    background: radial-gradient(circle, rgba(249, 248, 243, 1) 0%, rgba(240, 193, 123, 1) 100%);
+}
+
+/* ENCABEZADO */
+header {
+    background: rgb(240, 193, 123);
+    background: radial-gradient(circle, rgba(240, 193, 123, 1) 0%, rgba(249, 248, 243, 1) 100%);
 }
 
 /* LOGO */
@@ -130,7 +139,7 @@
 }
 
 /* MAYUSCULAS EN MENU  */
-.nav__links--activo {
+.nav__links--activo:hover {
     text-transform: uppercase;
 }
 
@@ -192,6 +201,13 @@
     border-radius: 0.5rem;
 }
 
+/* TABLA SELECCIONADA */
+.tabla--activo:hover {
+    background-color: #fff59d;
+    color: #8c9eff;
+    transition-duration: 2s;
+}
+
 /* TITULO SECCIÓN */
 .local h2 {
     font-size: 3rem;
@@ -218,6 +234,13 @@
     border: double;
     border-radius: 0.5rem;
     background-color: #8c9eff;
+}
+
+/* LOCAL SELECCIONADO */
+.local--activo:hover {
+    background-color: #fff59d;
+    color: #8c9eff;
+    transition-duration: 2s;
 }
 
 /* INFORMACIÓN DE SECCIÓN */
@@ -277,6 +300,13 @@
     font-size: 1rem;
     background-color: #8c9eff;
     border-radius: 0.5rem;
+}
+
+/* FORMULARIO SELECCIONADO */
+.contacto__form--activo:hover {
+    background-color: #5d4037;
+    color: #fff59d;
+    transition-duration: 2s;
 }
 
 /* FORMULARIO-SUBMIT */
@@ -361,7 +391,14 @@ Media Querys */
     .header {
         display: flex;
         list-style: none;
-        background-color: white;
+        background: rgb(249, 248, 243);
+        background: radial-gradient(circle, rgba(249, 248, 243, 1) 0%, rgba(240, 193, 123, 1) 100%);
+    }
+
+    /* ENCABEZADO */
+    header {
+        background: rgb(249, 248, 243);
+        background: radial-gradient(circle, rgba(249, 248, 243, 1) 0%, rgba(240, 193, 123, 1) 100%);
     }
 
     /* LOGO */
@@ -453,6 +490,13 @@ Media Querys */
         margin-bottom: 4rem;
     }
 
+    /* TABLA SELECCIONADA */
+    .tabla--activo:hover {
+        background-color: #5d4037;
+        color: #fff59d;
+        transition-duration: 2s;
+    }
+
     /* SECCIONES */
     .local {
         color: #5d4037;
@@ -487,6 +531,13 @@ Media Querys */
         border: double;
         border-radius: 0.5rem;
         background-color: #fff59d;
+    }
+
+    /* LOCAL SELECCIONADO */
+    .local--activo:hover {
+        background-color: #5d4037;
+        color: #fff59d;
+        transition-duration: 2s;
     }
 
     /* INFORMACIÓN DE SECCIÓN */
@@ -568,6 +619,12 @@ Media Querys */
         background-color: #fff59d;
     }
 
+    .contacto__form--activo:hover {
+        background-color: #5d4037;
+        color: #fff59d;
+        transition-duration: 2s;
+    }
+
     /* SECCIONES */
     .footer {
         grid-area: footer;
@@ -576,7 +633,8 @@ Media Querys */
         align-items: center;
         color: #5d4037;
         border-top: double;
-        background-color: #f1f8e9;
+        background: rgb(240, 193, 123);
+        background: radial-gradient(circle, rgba(240, 193, 123, 1) 0%, rgba(249, 248, 243, 1) 100%);
     }
 
 
