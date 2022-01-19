@@ -403,19 +403,26 @@ Media Querys */
 
     /* LOGO */
     .header img {
-        width: 30%;
+        width: 50%;
         height: auto;
     }
 
     /* MENU - NAV */
     .nav__links ul {
         display: inline;
+        margin-right: 10rem;
     }
 
     /* MENU - LISTAS */
     .nav__links li {
         font-weight: bold;
         font-size: 1.3rem;
+    }
+
+    /* LINKS */
+    .nav__links li a {
+        color: #8c9eff;
+        text-decoration: none;
     }
 
     /* SECCIONES */
