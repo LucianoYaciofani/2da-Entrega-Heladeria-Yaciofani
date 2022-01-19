@@ -143,12 +143,6 @@ header {
     text-transform: uppercase;
 }
 
-/* TITULO SECCIÓN */
-.nosotros h2 {
-    font-size: 3rem;
-    margin-top: 2rem;
-}
-
 /* IMAGEN PPAL */
 .nosotros img {
     border: double black;
@@ -166,12 +160,6 @@ header {
     line-height: 30px;
     width: 80%;
     margin-bottom: 4rem;
-}
-
-/* TITULO SECCIÓN */
-.productos h2 {
-    font-size: 3rem;
-    margin-top: 2rem;
 }
 
 /* PARRAFO PRINCIPAL DE LA SECCIÓN */
@@ -208,12 +196,6 @@ header {
     transition-duration: 2s;
 }
 
-/* TITULO SECCIÓN */
-.local h2 {
-    font-size: 3rem;
-    margin-top: 2rem;
-}
-
 /* INFORMACIÓN DE SECCIÓN */
 .local__ubicacion {
     display: flex;
@@ -246,13 +228,6 @@ header {
 /* INFORMACIÓN DE SECCIÓN */
 .local iframe {
     display: flex;
-}
-
-/* TITULO SECCIÓN */
-.contacto h2 {
-    font-size: 3rem;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
 }
 
 /* PARRAFO PRINCIPAL DE LA SECCIÓN */
@@ -405,6 +380,7 @@ Media Querys */
     .header img {
         width: 50%;
         height: auto;
+
     }
 
     /* MENU - NAV */
@@ -437,12 +413,6 @@ Media Querys */
         background-color: #8c9eff;
     }
 
-    /* TITULO SECCIÓN */
-    .nosotros h2 {
-        font-size: 3rem;
-        margin-top: 2rem;
-    }
-
     /* PARRAFO PRINCIPAL DE LA SECCIÓN */
     .nosotros p {
         font-size: 1.5rem;
@@ -459,13 +429,6 @@ Media Querys */
         border-top: double;
         background-position: center;
         background-size: cover;
-    }
-
-    /* TITULO SECCIÓN */
-    .productos h2 {
-        font-size: 3rem;
-        margin-top: 2rem;
-        color: #5d4037;
     }
 
     /* PARRAFO PRINCIPAL DE LA SECCIÓN */
@@ -512,13 +475,6 @@ Media Querys */
         background-size: cover;
     }
 
-    /* TITULO SECCIÓN */
-    .local h2 {
-        font-size: 3rem;
-        margin-top: 2rem;
-        color: #5d4037;
-    }
-
     /* INFORMACIÓN DE SECCIÓN */
     .local__ubicacion {
         display: flex;
@@ -562,9 +518,6 @@ Media Querys */
     /* TITULO SECCIÓN */
     .contacto h2 {
         color: #f1f8e9;
-        font-size: 3rem;
-        margin-top: 3rem;
-        margin-bottom: 2rem;
     }
 
     /* PARRAFO PRINCIPAL DE LA SECCIÓN */
