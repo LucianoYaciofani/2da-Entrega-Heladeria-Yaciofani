@@ -14,6 +14,9 @@
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!-- Link de Animate Style -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- LINK DE CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Link del estilo de CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
     <!-- Icono pequeño -->
@@ -25,13 +28,12 @@
 <body>
     <div class="grilla">
         <header>
-            <!-- Encabezado con lista no ordenadas de las secciones -->
             <div class="header">
                 <img src="../img/logocircular.png" alt="Logo">
                 <!-- Menú navegación -->
                 <nav class="nav__links">
                     <!-- Secciones -->
-                    <ul>
+                    <ul class="fw-bold h4 list-unstyled">
                         <li class="animate__animated animate__bounce"><a class="nav__links--activo"
                                 href="../index.html">Home</a>
                         </li>
@@ -53,11 +55,11 @@
         </header>
         <main>
             <!-- 3ra sección: Local y tiene un Iframe -->
-            <section class="local">
-                <h2>LOCAL</h2>
+            <section class="local container-fluid">
+                <h2 class="display-5 fw-bold mt-5">LOCAL</h2>
                 <!-- Dirección del Local junto con mapa -->
-                <div class="local__ubicacion">
-                    <p class="local--activo"><strong>Quilmes Oeste</strong>
+                <div class="local__ubicacion d-flex justify-content-around align-items-center w-100 mb-5 mt-5">
+                    <p class="local--activo mb-5 mt-5"><strong>Quilmes Oeste</strong>
                         <br>
                         Av, Rodolfo Lopez 3611, Quilmes
                         <br>
@@ -86,6 +88,10 @@
             </div>
         </footer>
     </div>
+    <!-- LINK DE JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
